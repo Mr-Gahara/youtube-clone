@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Youtube clone</title>
+
+    <link rel="stylesheet" href="styles/vid.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body style="height: 1100px; padding-top: 80px; padding-left: 80px; padding-right: 20px;">
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="mid-section">
+            <input class="search" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="icons/search2.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-btn">
+                <img class="voice-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="ytapps-container" >
+                <img class="ytapps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notification-container">
+                <div class="notification-icon-container">
+                    <img class="notification-icon" src="icons/notifications.svg" alt="">
+                    <div class="tooltip">Notifications</div>
+                    <div class="notification-count">
+                        9+
+                    </div>
+                </div>
+            </div>                       
+
+            <div>
+                <img class="profile-icon" src="channel-pictures/profile-pic.jpg" alt="">
+            </div>
+
+        </div>
+        
+    </header>
+    
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <div>
+                Home
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/shorts.svg" alt="">
+            <div>
+                Shorts
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>
+                Subscriptions
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/you.svg" alt="">
+            <div>
+                You
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail1.webp" alt="">  
+                    <div class="duration-label">
+                        2:34
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/heikira.jpg" alt="">
+                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Kobo Yang Bilang Alhamdullilah Didepan Marine Karena Belanjaanya Dibayarin..</p>
+                        <p class="video-author">heikira</p>
+                        <p class="video-stats">27K views &#183; 4 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail2.webp" alt=""> 
+                    <div class="duration-label">
+                        7:42:31
+                    </div>    
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/kiara.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">【Like a Dragon: Infinite Wealth】ALOHA HAPPYYYYYYYY #kfp #キアライブ (spoiler warning)</p>
+                        <p class="video-author">Takanashi Kiara Ch. hololive-EN <span class="logo-name">&#9834;</span> </p>
+                        <p class="video-stats">27K views &#183; 4 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail3.webp" alt="">    
+                    <div class="duration-label">
+                        2:51:05
+                    </div> 
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/upi.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">MALAM MINGGU WAKTUNYA?</p>
+                        <p class="video-author">Luthfi Halimawan</p>
+                        <p class="video-stats">Streamed 1 day ago</p>
+                        <button class="member-label"><span>&#x272A; </span>Members only</button>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail4.webp" alt="">   
+                    <div class="duration-label">
+                        17:42
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/lostboy.jpg" alt="">
+                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">I Tried BULL RACING In Sumatra, Indonesia [Episode 24]</p>
+                        <p class="video-author">The Lost Boys</p>
+                        <p class="video-stats">440K views &#183; 6 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail5.webp" alt="">    
+                    <div class="duration-label">
+                        18:01
+                    </div> 
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/toptier.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Super Battleship Hannover - Alone against 5 enemies</p>
+                        <p class="video-author">TopTier - World of Warships</p>
+                        <p class="video-stats">5.3K views &#183; 2 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail6.webp" alt="">  
+                    <div class="duration-label">
+                        1:37:16
+                    </div> 
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/upi.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">(MEMBERSHIP) BARENG NINJA RANGER HELLDIVER 2!!</p>
+                        <p class="video-author">Luthfi Halimawan</p>
+                        <button class="member-label"><span>&#x272A; </span>Members only</button>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail7.webp" alt="">  
+                    <div class="duration-label">
+                        3:59
+                    </div>    
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/kobo-topic.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">1日ヒーロー</p>
+                        <p class="video-author">Kobo Kanaeru - Topic</p>
+                        <p class="video-stats">11K views &#183; 12 hours ago</p>
+                    </div> 
+                </div>       
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail8.webp" alt=""> 
+                    <div class="duration-label">
+                        4:47
+                    </div>     
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/marine.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Houshou Marine - Lemah Teles | AI Cover (Koplo Ver.)</p>
+                        <p class="video-author">Senchounisty</p>
+                        <p class="video-stats">6.6K views &#183; 1 month ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail9.webp" alt="">    
+                    <div class="duration-label">
+                        3:15
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/bmth.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Bring Me The Horizon - sTraNgeRs (Fan Made Lyric Video)</p>
+                        <p class="video-author">Bring Me The Horizon <span class="logo-name">&#9834;</span> </p>
+                        <p class="video-stats">5.5M views &#183;  1 year ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail10.webp" alt="">    
+                    <div class="duration-label">
+                        1:20
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/vshojo.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Geega talks about the drama and prejudice surrounding VShojo and VTubers..</p>
+                        <p class="video-author">VTubers Family</p>
+                        <p class="video-stats">22K views &#183;  1 day ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail11.webp" alt="">  
+                    <div class="duration-label">
+                        1:34:41
+                    </div>    
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/guardian-news.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">TikTok, Snap, Meta, and X CEOs testify in Senate hearing – watch live</p>
+                        <p class="video-author">Guardian News</p>
+                        <p class="video-stats">3.6M views &#183;  Streamed 3 weeks ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail12.webp" alt="">    
+                    <div class="duration-label">
+                        4:58
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/nadhif.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">nadhif basalamah - penjaga hati (Official Music Video)</p>
+                        <p class="video-author">nadhif basalamah <span class="logo-name">&#9834;</span> </p>
+                        <p class="video-stats">57M views &#183; 6 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail13.webp" alt="">    
+                    <div class="duration-label">
+                        3:52
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/mewsic.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">【mew】 "Anytime Anywhere" milet ║ Frieren ED ║ Full ENGLISH Cover & Lyrics</p>
+                        <p class="video-author">mewsic <span class="logo-name">&#9834;</span> </p>
+                        <p class="video-stats">60K views &#183; 4 months ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail14.webp" alt="">    
+                    <div class="duration-label">
+                        0:32
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/scavege.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">KUZE /// BOSS B*TCH</p>
+                        <p class="video-author">Scavege</p>
+                        <p class="video-stats">109 views &#183; 4 days ago</p>
+                    </div> 
+                </div>       
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail15.webp" alt="">    
+                    <div class="duration-label">
+                        6:02:14
+                    </div>  
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/pekora.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">【ELDEN RING】イチから始めるエルデンリングやるぞおおおおおおおおおおおおおおお！！！ぺこ！【ホロライブ/兎田ぺこら】※ネタバレあり</p>
+                        <p class="video-author">Pekora Ch. 兎田ぺこら</p>
+                        <p class="video-stats">470K views &#183; Streamed 11 hours ago</p>
+                    </div> 
+                </div>       
+            </div>
+            
+        </section>
+    </main>  
+</body>
+</html>
